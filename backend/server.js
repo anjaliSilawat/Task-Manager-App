@@ -8,10 +8,10 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://task-manager-app-anjali.vercel.app'
+    'https://task-manager-app-eight-virid.vercel.app'
   ],
   credentials: true
-}));
+}))
 app.use(express.json());
 
 // Debug
